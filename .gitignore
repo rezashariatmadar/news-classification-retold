@@ -1,0 +1,110 @@
+# =========================
+# Core Python ignores
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+.python-version
+.pdm-python
+
+# Packaging / distribution
+build/
+dist/
+wheelhouse/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Logs and debugging
+*.log
+logs/
+debug.log
+
+# Coverage / testing
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.pytest_cache/
+.nox/
+.tox/
+
+# Type checkers / linters
+.mypy_cache/
+.pytype/
+.ruff_cache/
+.pylint.d/
+.cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# IDE / Editors
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# OS / misc
+.Trash-*
+
+# =========================
+# Project-specific ignores
+# =========================
+# Data and artifacts (adjust as needed if you want to track some)
+data/
+datasets/
+input/
+inputs/
+output/
+outputs/
+tmp/
+temp/
+tmp_*/
+.tmp/
+
+# Model artifacts and experiment logs
+models/
+results/
+checkpoints/
+artifacts/
+mlruns/
+wandb/
+lightning_logs/
+runs/
+
+# Common large binary artifacts
+*.pkl
+*.joblib
+*.npz
+*.npy
+*.h5
+*.pt
+*.onnx
+*.bin
+
+# Secrets (never commit real secrets)
+.secrets/
+secrets.*
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Local notebooks/exports
+*.ipynb_convert_*
+*.checkpoint.*
+
+
